@@ -24,7 +24,11 @@ public class City {
 	
 	public City() {
 	}
-
+	
+	public City(Long id) {
+		this.id = id;
+	}
+	
 	public City(Long id, String name) {
 		this.id = id;
 		this.name = name;
